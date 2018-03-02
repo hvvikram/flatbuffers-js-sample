@@ -5,7 +5,7 @@ brew install flatbuffers
 
 ## Compile Schema to generate classes in specific language
 ```
-flatc sample-schema.fbs --gen-all -o generated-src
+flatc --js person-schema.fbs
 ```
 
 ## Run Example

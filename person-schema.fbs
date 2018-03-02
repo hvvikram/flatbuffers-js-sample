@@ -1,0 +1,7 @@
+table Person {
+    name:string;
+    age:short;
+    spouse : Person;
+}
+
+root_type Person;
